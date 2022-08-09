@@ -1,0 +1,17 @@
+Definition:
+A class is defined with the class keyword while an object is defined
+using the object keyword. Also, whereas a class can take parameters,
+an object can’t take any parameter.
+
+Instantiation:
+To instantiate a regular class, we use the new keyword. For an object,
+we don’t need the new keyword.
+
+Singleton vs Multi-instance:
+While a class can have an unlimited number of instances, an object has
+just one instance created lazily when we first reference it.
+
+Inheritance:
+Since an object is a singleton, it cannot be inherited/extended; doing
+so will result in creating more than an instance of the object – a
+class, on the other hand, can be extended.
